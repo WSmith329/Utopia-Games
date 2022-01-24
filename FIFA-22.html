@@ -1,0 +1,232 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Will Smith">
+    <meta name="keywords" content="video-games, gaming, toys, ecommerce">
+    <meta name="viewport" content="width=device-width" />
+
+    <!-- Linking website icon -->
+    <link rel="icon" type="image/png" href="img/logos/UG-Icon.png">
+
+    <!-- Linking css style sheet -->
+    <link rel="stylesheet" href="Style.css">
+
+    <!-- Adding icon library -->
+    <script src="https://kit.fontawesome.com/f2fedb9211.js" crossorigin="anonymous"></script>
+
+    <!-- Linking jQuery -->
+    <script src="scripts/jQuery.js"></script>
+
+    <!-- Linking my javascript libraries -->
+    <script src="scripts/Script.js" defer></script>
+    <script src="scripts/ProductScript.js" defer></script>
+
+    <title>FIFA 22</title>
+</head>
+
+<body>
+    <!-- Header section -->
+    <header class="mainHeader">
+        <!-- Header logo -->
+        <section class="headerLogo">
+            <a href="Home.html" title="Go to the Homepage"><img id="logo" src="img/logos/Utopia.png"
+                    alt="Utopia Games Logo"></a>
+        </section>
+
+        <!-- Desktop navbar-->
+        <nav class="navbar">
+            <ul>
+                <li><a class="navbarBtn" href="Home.html" title="Go to the Homepage"><i class="fas fa-home"></i>
+                        Home</a></li>
+                <li class="dropdown"><a class="dropBtn navbarBtn" href="Products.html" title="Go to Products"><i
+                            class="fas fa-box-open"></i> Products</a>
+                    <section class="dropdown-container">
+                        <a class="dropdownBtn" href="Games.html" title="Go to Video Games">Games</a>
+                        <a class="dropdownBtn" href="Consoles.html" title="Go to Consoles">Consoles</a>
+                        <a class="dropdownBtn" href="Accessories.html" title="Go to Gaming Accessories">Accessories</a>
+                        <a class="dropdownBtn" href="Toys.html" title="Go to Toys">Toys</a>
+                        <a class="dropdownBtn" href="Merchandise.html" title="Go to Merchandise">Merchandise</a>
+                    </section>
+                </li>
+                <li><a class="navbarBtn" href="Cart.html" title="Go to your shopping cart"><i
+                            class="fas fa-shopping-cart"></i> Cart</a></li>
+                <li><a class="navbarBtn" href="Log-In.html" title="Go to the Log In page"><i class="fas fa-user"></i>
+                        Log In</a></li>
+                <li><a class="navbarBtn" href="About-Us.html" title="Go to the About Us page"><i
+                            class="fas fa-info-circle"></i> About Us</a></li>
+            </ul>
+        </nav>
+
+        <nav class="navbtn">
+            <a title="Open Navigation Menu"><i class="fas fa-bars"></i></a>
+        </nav>
+    </header>
+
+    <!-- Mobile navmenu -->
+    <nav class="navmenu">
+        <div class="navmenu-item">
+            <a href="Home.html" title="Go to the Homepage"><i class="fas fa-home"></i> Home</a>
+        </div>
+        <div class="navmenu-item">
+            <a href="Products.html" title="Go to Products"><i class="fas fa-box-open"></i> Products</a>
+        </div>
+        <div class="navmenu-item">
+            <a href="#" title="Go to your shopping cart"><i class="fas fa-shopping-cart"></i> Cart</a>
+        </div>
+        <div class="navmenu-item">
+            <a href="Log-In.html" title="Go to the Log In page"><i class="fas fa-user"></i> Log In</a>
+        </div>
+        <div class="navmenu-item">
+            <a href="About-Us.html" title="Go to the About Us page"><i class="fas fa-info-circle"></i> About Us</a>
+        </div>
+    </nav>
+
+    <!-- Trailer Section -->
+    <section class="trailer-container">
+        <!-- Full-width YouTube video of product trailer -->
+        <iframe class="trailer" src="https://www.youtube-nocookie.com/embed/o1igaMv46SY?autoplay=1&mute=1"></iframe>
+    </section>
+
+    <!-- Featured Games Section -->
+    <section class="product-container">
+        <article class="productTitle">
+            <h2>FIFA 22</h2>
+        </article>
+
+        <article class="productProfile">
+            <div class="productImage-container">
+                <img class="productImage" src="img/games/fifa-22/fifa-22-cover.jpg">
+            </div>
+
+            <form class="productForm">
+                <label for="console"><b>Version:</b></label>
+                <select name="console" id="console">
+                    <option value="ps4">PlayStation 4 - £54.99</option>
+                    <option value="x1">Xbox One - £54.99</option>
+                    <option value="ps5">PlayStation 5 - £64.99</option>
+                    <option value="xsx">Xbox Series X - £64.99</option>
+                    <option value="switch">Nintendo Switch - £34.99</option>
+                    <option value="pc">PC Code - £54.99</option>
+                </select>
+
+                <label for="quantity"><b>Quantity:</b></label>
+                <input type="number" name="quantity" id="quantity" min="1" max="5">
+
+                <input type="submit" value="Buy Now" id="buy">
+            </form>
+        </article>
+
+        <article class="productDesc">
+            <h6>GAMEPLAY</h6>
+            <p>Reimagined gameplay creates fundamental advances that you'll feel across every mode in FIFA 22. A
+                goalkeeper rewrite brings more composure and consistency to the most important position on the pitch,
+                new ball physics reimagine every pass, shot, and goal, and explosive sprint lets you feel the
+                acceleration of the game's quickest players.</p>
+
+            <h6>CAREER MODE</h6>
+            <p>Live out your football dreams in FIFA 22 Career Mode as you create a club and lead them from relegation
+                candidates to global giants, and enjoy an overhauled Player Career experience that gives you more ways
+                to progress, achieve, and immerse yourself in your Pro's journey through the game.</p>
+
+            <h6>VOLTA FOOTBALL</h6>
+            <p>VOLTA FOOTBALL returns with more flair all over the pitch and new ways to express your style and connect
+                with your squad in street football playgrounds all over the world.</p>
+
+            <h6>FIFA ULTIMATE TEAM</h6>
+            <p>Build your dream squad and compete in the most popular mode in FIFA, with thousands of players to add to
+                your club and countless ways to customise your Club on and off the pitch. Whether you want to play on
+                your own in Squad Battles, together in FUT Co-Op, Online in Division Rivals, or against the best in FUT
+                Champions, FIFA Ultimate Team™ (FUT) connects you to the world of football throughout the entire season
+                with a range of content influenced by real-world performances and competitions including the UEFA
+                Champions League, UEFA Europa League, and CONMEBOL Libertadores.</p>
+
+            <h6>PRO CLUBS</h6>
+            <p>With new customisation options to make your club stand out in the stands and on the pitch, a new player
+                growth system that puts you in control of your Virtual Pro's development, and streamlined social play
+                that makes it easier than ever to find your next game, it's time to get the squad together for a new
+                season of Pro Clubs.</p>
+
+            <h6>UNRIVALED AUTHENTICITY</h6>
+            <p>Experience unrivaled authenticity in FIFA 22 with the most true-to-life experience of The World's Game
+                featuring football's biggest stars and teams. With 17,000+ players across 700+ teams in more than 90
+                stadiums and over 30 leagues, FIFA 22 is the only place you can play the iconic UEFA Champions League,
+                UEFA Europa League, brand new UEFA Europa Conference League, CONMEBOL Libertadores, CONMEBOL
+                Sudamericana, Premier League, Bundesliga, and LaLiga Santander.</p>
+        </article>
+
+        <article class="productFooter">
+            <div>
+                <h6>PEGI Rating</h6>
+                <p>Suitable for people aged 3 and over.</p>
+            </div>
+
+            <div>
+                <h6>Genre</h6>
+                <p>Sport</p>
+            </div>
+
+            <div>
+                <h6>Published By</h6>
+                <p>Electronic Arts</p>
+            </div>
+        </article>
+    </section>
+
+    <!-- Others Section -->
+    <section class="cards-container">
+        <div class="card-all card">
+            <h2>More From Utopia</h2>
+        </div>
+
+        <article class="card-1 card"><a href="Accessories.html">
+            <h3>Accessories</h3>
+            <img src="img/cards/Accessories.jpg">
+            <p>Browse through our array of gaming accessories!</p>
+        </a></article>
+
+        <article class="card-2 card"><a href="Toys.html">
+            <h3>Toys</h3>
+            <img src="img/cards/Toys.jpg">
+            <p>Take a look at our toys produced by some of the biggest gaming companies!</p>
+        </a></article>
+
+        <article class="card-3 card"><a href="Merchandise.html">
+            <h3>Merchandise</h3>
+            <img src="img/cards/Merch.jpg">
+            <p>Add a piece of clothing representing your favourite game to your wardrobe!</p>
+        </a></article>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer-container">
+        <section class="credits">
+            <h5>Credits</h5>
+            <p>© Utopia Games Ltd. All Rights Reserved.</p>
+            <p>Designed and created by William Dafydd Smith.</p>
+        </section>
+
+        <section class="contact">
+            <h5>Contact Us</h5>
+            <h6>General Enquires</h6>
+            <p><a href="mailto:info@utopiagames.ac.uk">info@utopiagames.ac.uk</a></p>
+            <h6>Customer Support</h6>
+            <p><a href="mailto:support@utopiagames.ac.uk">support@utopiagames.ac.uk</a></p>
+        </section>
+
+        <section class="access">
+            <h5>Accessibility</h5>
+            <h6>Font Size</h6>
+            <button id="decrease-font">A-</button>
+            <button id="reset-font">A</button>
+            <button id="increase-font">A+</button>
+            <h6>Colour Theme</h6>
+            <button id="light-theme">Light</button>
+            <button id="dark-theme">Dark</button>
+        </section>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,204 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Will Smith">
+    <meta name="keywords" content="video-games, gaming, toys, ecommerce">
+    <meta name="viewport" content="width=device-width" />
+
+    <!-- Linking website icon -->
+    <link rel="icon" type="image/png" href="img/logos/UG-Icon.png">
+
+    <!-- Linking css style sheet -->
+    <link rel="stylesheet" href="Style.css">
+
+    <!-- Adding icon library -->
+    <script src="https://kit.fontawesome.com/f2fedb9211.js" crossorigin="anonymous"></script>
+
+    <!-- Linking jQuery -->
+    <script src="scripts/jQuery.js"></script>
+
+    <!-- Linking my javascript libraries -->
+    <script src="scripts/Script.js" defer></script>
+    <script src="scripts/HomeScript.js" defer></script>
+
+    <title>Utopia Games</title>
+</head>
+
+<body>
+    <!-- Intro splash screen -->
+    <div class="splash">
+        <img id="splashLogo" src="img/logos/Utopia.png" alt="Utopia Games Logo">
+    </div>
+
+    <!-- Header section -->
+    <header class="mainHeader">
+        <!-- Header logo -->
+        <section class="headerLogo">
+            <a href="Home.html" title="Go to the Homepage"><img id="logo" src="img/logos/Utopia.png"
+                    alt="Utopia Games Logo"></a>
+        </section>
+
+        <!-- Desktop navbar-->
+        <nav class="navbar">
+            <ul>
+                <li><a class="navbarBtn active" href="Home.html" title="Go to the Homepage"><i class="fas fa-home"></i>
+                        Home</a></li>
+                <li class="dropdown"><a class="dropBtn navbarBtn" href="Products.html" title="Go to Products"><i
+                            class="fas fa-box-open"></i> Products</a>
+                    <section class="dropdown-container">
+                        <a class="dropdownBtn" href="Games.html" title="Go to Video Games">Games</a>
+                        <a class="dropdownBtn" href="Consoles.html" title="Go to Consoles">Consoles</a>
+                        <a class="dropdownBtn" href="Accessories.html" title="Go to Gaming Accessories">Accessories</a>
+                        <a class="dropdownBtn" href="Toys.html" title="Go to Toys">Toys</a>
+                        <a class="dropdownBtn" href="Merchandise.html" title="Go to Merchandise">Merchandise</a>
+                    </section>
+                </li>
+                <li><a class="navbarBtn" href="Cart.html" title="Go to your shopping cart"><i
+                            class="fas fa-shopping-cart"></i> Cart</a></li>
+                <li><a class="navbarBtn" href="Log-In.html" title="Go to the Log In page"><i class="fas fa-user"></i>
+                        Log In</a></li>
+                <li><a class="navbarBtn" href="About-Us.html" title="Go to the About Us page"><i
+                            class="fas fa-info-circle"></i> About Us</a></li>
+            </ul>
+        </nav>
+
+        <nav class="navbtn">
+            <a title="Open Navigation Menu"><i class="fas fa-bars"></i></a>
+        </nav>
+    </header>
+
+    <!-- Mobile navmenu-->
+    <nav class="navmenu">
+        <div class="navmenu-item">
+            <a href="Home.html" title="Go to the Homepage"><i class="fas fa-home"></i> Home</a>
+        </div>
+        <div class="navmenu-item">
+            <a href="Products.html" title="Go to Products"><i class="fas fa-box-open"></i> Products</a>
+        </div>
+        <div class="navmenu-item">
+            <a href="#" title="Go to your shopping cart"><i class="fas fa-shopping-cart"></i> Cart</a>
+        </div>
+        <div class="navmenu-item">
+            <a href="Log-In.html" title="Go to the Log In page"><i class="fas fa-user"></i> Log In</a>
+        </div>
+        <div class="navmenu-item">
+            <a href="About-Us.html" title="Go to the About Us page"><i class="fas fa-info-circle"></i> About Us</a>
+        </div>
+    </nav>
+
+    <!-- Slideshow Section -->
+    <section class="slideshow-container">
+        <!-- Full-width images with number and caption text -->
+        <div class="slideImages">
+            <a class="slideReference" href="Lost-Judgement.html"><img class="slideImage" src="img/slides/LJ.jpg"
+                    alt="Slideshow Image"></a>
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prevSlide">&#10094;</a>
+        <a class="nextSlide">&#10095;</a>
+    </section>
+
+    <!-- Featured Games Section -->
+    <section class="cards-container">
+        <div class="card-all card">
+            <h2>Featured Games</h2>
+        </div>
+
+        <article class="card-1 card"><a href="New-Releases.html">
+                <h3>New Releases</h3>
+                <img src="img/cards/New-Releases.jpg">
+                <p>Check out the most popular newly released video games on the market!</p>
+            </a></article>
+
+        <article class="card-2 card"><a href="Coming-Soon.html">
+                <h3>Coming Soon</h3>
+                <img src="img/cards/Coming-Soon.jpg">
+                <p>Get a preview of some of the most anticipated games coming out in the near future!</p>
+            </a></article>
+
+        <article class="card-3 card"><a href="Our-Favourites.html">
+                <h3>Our Favourites</h3>
+                <img src="img/cards/Our-Favourites.jpg">
+                <p>Have a look at some of our team's personal favourite games to play!</p>
+            </a></article>
+    </section>
+
+    <!-- Consoles Section -->
+    <section class="strip-container">
+        <article class="strip-block"><a href="Consoles.html">
+            <img src="img/logos/Xbox.png" alt="Xbox Consoles">
+        </a></article>
+
+        <article class="strip-block"><a href="Consoles.html">
+            <img src="img/logos/PS.png" alt="PlayStation Consoles">
+        </a></article>
+
+        <article class="strip-block"><a href="Consoles.html">
+            <img src="img/logos/Switch.png" alt="Nintendo Consoles">
+        </a></article>
+
+        <article class="strip-block"><a href="Consoles.html">
+            <img src="img/logos/PC.png" alt="PC Accessories">
+        </a></article>
+    </section>
+
+    <!-- Others Section -->
+    <section class="cards-container">
+        <div class="card-all card">
+            <h2>More From Utopia</h2>
+        </div>
+
+        <article class="card-1 card"><a href="Accessories.html">
+            <h3>Accessories</h3>
+            <img src="img/cards/Accessories.jpg">
+            <p>Browse through our array of gaming accessories!</p>
+        </a></article>
+
+        <article class="card-2 card"><a href="Toys.html">
+            <h3>Toys</h3>
+            <img src="img/cards/Toys.jpg">
+            <p>Take a look at our toys produced by some of the biggest gaming companies!</p>
+        </a></article>
+
+        <article class="card-3 card"><a href="Merchandise.html">
+            <h3>Merchandise</h3>
+            <img src="img/cards/Merch.jpg">
+            <p>Add a piece of clothing representing your favourite game to your wardrobe!</p>
+        </a></article>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer-container">
+        <section class="credits">
+            <h5>Credits</h5>
+            <p>© Utopia Games Ltd. All Rights Reserved.</p>
+            <p>Designed and created by William Dafydd Smith.</p>
+        </section>
+
+        <section class="contact">
+            <h5>Contact Us</h5>
+            <h6>General Enquires</h6>
+            <p><a href="mailto:info@utopiagames.ac.uk">info@utopiagames.ac.uk</a></p>
+            <h6>Customer Support</h6>
+            <p><a href="mailto:support@utopiagames.ac.uk">support@utopiagames.ac.uk</a></p>
+        </section>
+
+        <section class="access">
+            <h5>Accessibility</h5>
+            <h6>Font Size</h6>
+            <button id="decrease-font">A-</button>
+            <button id="reset-font">A</button>
+            <button id="increase-font">A+</button>
+            <h6>Colour Theme</h6>
+            <button id="light-theme">Light</button>
+            <button id="dark-theme">Dark</button>
+        </section>
+    </footer>
+
+</body>
+
+</html>
